@@ -1,6 +1,4 @@
-# SparkCourse
-
-## Use cases:
+# Use cases for python files:
 
 ### RDD´s exercises using pySpark:
 
@@ -55,3 +53,20 @@ movie-similarities-dataframe.py: we use a particular to determine the most ratin
 
 
 MovieSimilarities1M.py: We modify the movie-similarities-dataframe.py to be able to place it in the cloud. We use partitionBy to let use more executors to distribute the task
+
+-----
+
+### Machine Learning with Spark
+
+movie-recommendations-als-dataframe.py: we use the ALS algorithm to recommend movies to a user. We use the same dataset as the previous exercise. We use train, als, fit, recommendForUserSubset, etc.
+    We hardcode the u.data freom the ml-100k to use it as a case study. We said that the user 0 loves Star Wars and The Empire Striker Back, but hated the movie Gone with the Wind
+
+spark-linear-regression.py: we use the LinearRegression algorithm to predict the price of a house.
+
+real-estate.py: we use Decision Trees to predict the price of a house.
+
+
+-----|
+
+### Spark Streaming
+
